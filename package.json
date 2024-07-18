@@ -1,5 +1,5 @@
 {
-  "name": "@vitejs/plugin-routes-generator",
+  "name": "plugin-routes-generator",
   "version": "1.0.0",
   "description": "Simplify the routing configuration of the Vue project. Use this plug-in to generate project routes through file directory conventions.",
   "main": "lib/index.js",
@@ -26,8 +26,13 @@
     "./dist",
     "./typings.d.ts"
   ],
+  "homepage": "https://github.com/ThanksGlory/vitejs-plugin-routes-generator",
   "repository": {
     "type": "git",
     "url": "https://github.com/ThanksGlory/vitejs-plugin-routes-generator.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
