@@ -25,5 +25,9 @@
   "files": [
     "./dist",
     "./typings.d.ts"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThanksGlory/vitejs-plugin-routes-generator.git"
+  }
 }
