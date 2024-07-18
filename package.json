@@ -1,0 +1,29 @@
+{
+  "name": "@vitejs/plugin-routes-generator",
+  "version": "1.0.0",
+  "description": "Simplify the routing configuration of the Vue project. Use this plug-in to generate project routes through file directory conventions.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "vite -v",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "vue",
+    "router"
+  ],
+  "author": "zhangqiu",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.5.3",
+    "vite": "4.3.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  },
+  "files": [
+    "./dist",
+    "./typings.d.ts"
+  ]
+}
