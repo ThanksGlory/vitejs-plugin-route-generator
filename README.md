@@ -2,6 +2,7 @@
 **Simplify the routing configuration of the Vue project. Use this plug-in to generate project routes through file directory conventions.**
 
 <a herf="./README.md">English</a>   <a herf="./README-zh-CN.md">简体中文</a>
+
 ## Usage
 
 **vite.config.ts**
@@ -84,41 +85,42 @@ root
 ```
 ## The generated data structure
 
-```
+```json
 [
   {
-    'name': 'About',
-    'path': '/about'
+    "name": "About",
+    "path": "/about"
   },
   {
-    'name': 'Duty',
-    'path': '/duty',
-    'children':
+    "name": "Duty",
+    "path": "/duty",
+    "children":
       [
         {
-          'name': 'DutyHome',
-          'path': 'duty-home'
+          "name": "DutyHome",
+          "path": "duty-home"
         },
         {
-          'name': 'Task', 'path': 'task',
-          'children':
+          "name": "Task", 
+          "path": "task",
+          "children":
             [
               {
-                'name': 'TaskList',
-                'path': 'task-list'
+                "name": "TaskList",
+                "path": "task-list"
               }
             ]
         }
       ]
   },
   {
-    'name': 'Home',
-    'path': '/home'
+    "name": "Home",
+    "path": "/home"
   },
   {
-    'name': 'User',
-    'path': '/user',
-    'children': [{ 'name': 'Id', 'path': ':id' }]
+    "name": "User",
+    "path": "/user",
+    "children": [{ "name": "Id", "path": ":id" }]
   }
 ]
 ```

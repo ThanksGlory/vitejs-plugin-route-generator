@@ -85,41 +85,42 @@ root
 ```
 ## 生成的数据结构
 
-```
+```json
 [
   {
-    'name': 'About',
-    'path': '/about'
+    "name": "About",
+    "path": "/about"
   },
   {
-    'name': 'Duty',
-    'path': '/duty',
-    'children':
+    "name": "Duty",
+    "path": "/duty",
+    "children":
       [
         {
-          'name': 'DutyHome',
-          'path': 'duty-home'
+          "name": "DutyHome",
+          "path": "duty-home"
         },
         {
-          'name': 'Task', 'path': 'task',
-          'children':
+          "name": "Task", 
+          "path": "task",
+          "children":
             [
               {
-                'name': 'TaskList',
-                'path': 'task-list'
+                "name": "TaskList",
+                "path": "task-list"
               }
             ]
         }
       ]
   },
   {
-    'name': 'Home',
-    'path': '/home'
+    "name": "Home",
+    "path": "/home"
   },
   {
-    'name': 'User',
-    'path': '/user',
-    'children': [{ 'name': 'Id', 'path': ':id' }]
+    "name": "User",
+    "path": "/user",
+    "children": [{ "name": "Id", "path": ":id" }]
   }
 ]
 ```
