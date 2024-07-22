@@ -1,8 +1,8 @@
 ## vite-plugin-route-generator
-**Simplify the routing configuration of the Vue project. Use this plug-in to generate project routes through file directory conventions.**
+**简化Vue项目的路由配置。使用这个插件可以通过文件目录约定生成项目路由。**
 
-<a herf="./README.md">English</a>   <a herf="./README-zh-CN.md">简体中文</a>
-## Usage
+<a herf="./README.md">English</a>     <a herf="./README-zh-CN.md">简体中文</a>
+## 用法
 
 **vite.config.ts**
 
@@ -49,7 +49,7 @@ declare module '*.vue' {
 }
 ```
 
-Add a line /// <reference types="vite-plugin-route-generator/typings.d.ts" />
+添加一行 /// <reference types="vite-plugin-route-generator/typings.d.ts" />
 
 **main.ts**
 
@@ -60,7 +60,8 @@ import App from './App.vue';
 const app = createApp(App);
 app.use(router);
 ```
-## Directory structure
+
+## 目录结构
 
 ```txt
 root
@@ -82,7 +83,7 @@ root
 │  │   │   └─DutyHome
 │  │   │       └─index.vue
 ```
-## The generated data structure
+## 生成的数据结构
 
 ```
 [
@@ -122,3 +123,4 @@ root
   }
 ]
 ```
+
