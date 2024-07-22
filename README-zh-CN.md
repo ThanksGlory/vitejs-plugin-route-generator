@@ -49,7 +49,7 @@ declare module '*.vue' {
 }
 ```
 
-添加一行 /// <reference types="vite-plugin-route-generator/typings.d.ts" />
+添加一行 /// <**reference types="vite-plugin-route-generator/typings.d.ts"** />
 
 **main.ts**
 

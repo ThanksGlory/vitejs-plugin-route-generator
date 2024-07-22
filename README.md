@@ -50,7 +50,7 @@ declare module '*.vue' {
 }
 ```
 
-Add a line /// <reference types="vite-plugin-route-generator/typings.d.ts" />
+Add a line /// <**reference types="vite-plugin-route-generator/typings.d.ts"** />
 
 **main.ts**
 
