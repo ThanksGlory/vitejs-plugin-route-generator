@@ -49,7 +49,7 @@ abstract class Utils {
         });
       } else {
         let name = this.camelCase2Underline(params.name);
-        if (name === '[id]') name = ':' + name;
+        if (name === '[id]') name = ':id';
         route.path = params.root ? '/' + name : name;
         route.component = `() => import('/${relativePath}')`;
       }
