@@ -25,5 +25,10 @@
   "files": [
     "./dist",
     "./typings.d.ts"
-  ]
+  ],
+  "homepage": "https://github.com/ThanksGlory/vitejs-plugin-route-generator/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repo.git"
+  }
 }
