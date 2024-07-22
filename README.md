@@ -1,8 +1,7 @@
 ## vite-plugin-route-generator
 **Simplify the routing configuration of the Vue project. Use this plug-in to generate project routes through file directory conventions.**
 
-[English](README.md)       
-[简体中文](README-zh-CN.md)
+[English](README.md)    [简体中文](README-zh-CN.md)
 
 ## Usage
 

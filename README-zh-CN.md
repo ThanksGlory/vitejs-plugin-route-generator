@@ -1,7 +1,7 @@
 ## vite-plugin-route-generator
 **简化Vue项目的路由配置。使用这个插件可以通过文件目录约定生成项目路由。**
 
-[English](./README.md)       [简体中文](./README-zh-CN.md)
+[English](README.md)    [简体中文](README-zh-CN.md)
 
 ## 用法
 
@@ -125,4 +125,3 @@ root
   }
 ]
 ```
-
